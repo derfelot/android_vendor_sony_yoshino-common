@@ -11,5 +11,5 @@ service illumination /vendor/bin/hw/illumination_service
     socket illumination stream 0660 system oem_2929
     class hal
     user root
-    writepid /dev/cpuset/system-background/tasks
+    task_profiles ServiceCapacityLow
     shutdown critical

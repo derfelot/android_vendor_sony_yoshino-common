@@ -33,4 +33,4 @@ service touchbacklightd /system/vendor/bin/hw/touchbacklightd
     disabled
     user system
     group system
-    writepid /dev/cpuset/system-background/tasks
+    task_profiles ServiceCapacityLow

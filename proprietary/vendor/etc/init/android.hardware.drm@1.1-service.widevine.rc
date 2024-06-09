@@ -14,4 +14,4 @@ service vendor.drm-widevine-hal-1-1 /vendor/bin/hw/android.hardware.drm@1.1-serv
     user media
     group media mediadrm drmrpc oem_2993
     ioprio rt 4
-    writepid /dev/cpuset/foreground/tasks
+    task_profiles ProcessCapacityHigh
